@@ -1,0 +1,32 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 357b6c2e-632b-480b-9b11-e4befcbe2bda
+  title: An example Jupyter Book
+  description: A collection of files that build up a book
+  keywords:
+    - jupyter-book
+    - stuff
+  authors: Yi-Ping Huang
+  github: nthu-yiping-huang/my-book
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: syllabus.tex
+    - file: introduction.md
+    - title: Pre-knowledge
+      children:
+        - file: QM.tex
+        - file: SM.tex
+    - file: emergence.tex
+    - title: Emergent phenomena
+      children:
+        - file: polymer.tex
+        - file: metal.tex
+  exports:
+    - format: pdf
+      template: lapreprint-typst
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png

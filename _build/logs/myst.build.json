@@ -1,0 +1,77 @@
+{
+  "input": {
+    "files": [],
+    "opts": {
+      "execute": false,
+      "executeParallel": 9,
+      "pdf": true,
+      "tex": false,
+      "typst": false,
+      "docx": false,
+      "md": false,
+      "xml": false,
+      "meca": false,
+      "cff": false,
+      "site": false,
+      "html": false,
+      "all": false,
+      "doiBib": false,
+      "watch": false,
+      "force": false,
+      "checkLinks": false,
+      "strict": false,
+      "ci": false,
+      "maxSizeWebp": 1572864,
+      "keepHost": false
+    }
+  },
+  "exports": [
+    {
+      "format": "typst",
+      "template": "lapreprint-typst",
+      "output": "/Users/yi-pinghuang/Library/CloudStorage/Dropbox/AsProfessor/Teaching/Condensed_matter_physics/Condensed_matter_physics_I/mybook/_build/exports/myst_typst/myst.pdf",
+      "articles": [
+        {
+          "file": "/Users/yi-pinghuang/Library/CloudStorage/Dropbox/AsProfessor/Teaching/Condensed_matter_physics/Condensed_matter_physics_I/mybook/introduction.tex",
+          "level": 1,
+          "slug": "introduction"
+        },
+        {
+          "level": 1,
+          "title": "Pre-knowledge"
+        },
+        {
+          "file": "/Users/yi-pinghuang/Library/CloudStorage/Dropbox/AsProfessor/Teaching/Condensed_matter_physics/Condensed_matter_physics_I/mybook/QM.tex",
+          "level": 2,
+          "slug": "qm"
+        },
+        {
+          "file": "/Users/yi-pinghuang/Library/CloudStorage/Dropbox/AsProfessor/Teaching/Condensed_matter_physics/Condensed_matter_physics_I/mybook/SM.tex",
+          "level": 2,
+          "slug": "sm"
+        },
+        {
+          "file": "/Users/yi-pinghuang/Library/CloudStorage/Dropbox/AsProfessor/Teaching/Condensed_matter_physics/Condensed_matter_physics_I/mybook/emergence.tex",
+          "level": 1,
+          "slug": "emergence"
+        },
+        {
+          "level": 1,
+          "title": "Emergent phenomena"
+        },
+        {
+          "file": "/Users/yi-pinghuang/Library/CloudStorage/Dropbox/AsProfessor/Teaching/Condensed_matter_physics/Condensed_matter_physics_I/mybook/polymer.tex",
+          "level": 2,
+          "slug": "polymer"
+        },
+        {
+          "file": "/Users/yi-pinghuang/Library/CloudStorage/Dropbox/AsProfessor/Teaching/Condensed_matter_physics/Condensed_matter_physics_I/mybook/metal.tex",
+          "level": 2,
+          "slug": "metal"
+        }
+      ],
+      "$file": "/Users/yi-pinghuang/Library/CloudStorage/Dropbox/AsProfessor/Teaching/Condensed_matter_physics/Condensed_matter_physics_I/mybook/myst.yml",
+      "$project": "/Users/yi-pinghuang/Library/CloudStorage/Dropbox/AsProfessor/Teaching/Condensed_matter_physics/Condensed_matter_physics_I/mybook"
+    }
+  ]
+}
